@@ -21,7 +21,7 @@ class ViewController: UIViewController {
         let playerController = AVPlayerViewController()
         
         playerController.player = player
-        self.addChildViewController(playerController)
+        self.addChild(playerController)
         self.view.addSubview(playerController.view)
         playerController.view.frame = self.view.frame
         
